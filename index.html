@@ -1,71 +1,87 @@
 <!DOCTYPE html>
 <html>
     
-<head>
+<header>
     <meta charset="utf-8" />
     <title>WebStudio</title>
   
-    <div>
-    <h4> <font size="+2"><a style="color:hsl(207, 90%, 54%)"><b>Web</b></a><b>Studio</b> </font> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp   
-    <a style="color:hsl(207, 90%, 54%)">Studio</a> &nbsp &nbsp &nbsp
-    <a> Portofolio</a> &nbsp &nbsp &nbsp
-    <a> Contacts</a> &nbsp &nbsp  &nbsp   &nbsp &nbsp  &nbsp  &nbsp   &nbsp &nbsp  &nbsp  &nbsp &nbsp  &nbsp  &nbsp &nbsp  &nbsp &nbsp  &nbsp  &nbsp &nbsp  &nbsp
+<nav class="navbar">
+<h4> 
+    <font size="+2"> <a style="color:hsl(207, 90%, 54%)"><b>Web</b></a><b>Studio</b></font>  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp   
+    <a href="Studio" style="color:hsl(207, 90%, 54%)"> Studio </a>   &nbsp &nbsp &nbsp &nbsp &nbsp
+    <a href="Portofolio.html"> Portofolio</a> &nbsp &nbsp &nbsp  &nbsp  &nbsp
+    <a href="Contacts.html"> Contacts</a> &nbsp &nbsp  &nbsp   &nbsp &nbsp  &nbsp  &nbsp   &nbsp &nbsp  &nbsp  &nbsp &nbsp  &nbsp  &nbsp &nbsp  &nbsp &nbsp  &nbsp  &nbsp &nbsp  &nbsp
     <a href="mailto:info@devstudio.com"> info@devstudio.com </a> &nbsp  &nbsp &nbsp  
     <a href="tel:+1 212-772-4150" style="color:hsl(0, 0%, 46%)">+1 212-772-4150</a>
+
 </h4>
-</div>
-</head>
+</nav>
+
+</header>
 
 <body>
 
-<div class="head">
-<div></div>
-<centre>
-<div id="mydiv"><h1 style="color: #fffcf9;"> EFFECTIVE SOLUTIONS FOR <br> </centre> <center>YOUR BUSINESS </h1> </div></centre>
-<div><button style="background-color:hsl(207, 90%, 54%)"> <p style="color: #fffcf9;"> Request our services</p></button></div>
-
-</div>
-
+<section class="head">
 <div>
-
-
-    <table>
-    <td><a><b>ATTENTION TO DETAILS</b> <br> We go into all the details and processes <br> of your business to develop a <br> customized solution. </a> </td>
-    <td><a><b>PUNCTUALITY</b> <br> With us, you can feel safe and secure.<br> An important principle of the company:<br> respect your time and deadlines. </a></td> 
-    <td><a><b>PLANNING</b> <br> You will be able to observe and <br> participate in every phase of solution <br> development and implementation. </a></td> 
-    <td><a><b>MODERN TECHNOLOGIES</b> <br> We use innovative tools to solve<br> assigned tasks. It's time to simplify work<br> processes. </a></td> 
-   
-    </table>
-</table>
+<center><h1 style="color: #fffcf9;"> EFFECTIVE SOLUTIONS FOR <br> YOUR BUSINESS </h1>
+<button style="background-color:hsl(207, 90%, 54%)"> <p style="color: #fffcf9;"> Request our services</p></button>
+</center>
 </div>
-    
+</section>
+
+<!--div class="middle">
+ 
+<div><a><h4>ATTENTION TO DETAILS</h4> <p>We go into all the details and  <br> processes  of your business  to <br> develop  a customized solution.</p> </a> </div>
+<div><a><h4>PUNCTUALITY </h4> <p>With us, you can feel safe and secure.<br> An important principle of the company:<br> respect your time and deadlines. </p> </a></div>
+<div><a><h4>PLANNING </h4> <p> You will be able to observe and <br> participate in every phase of solution <br> development and implementation. </p> </a></div>
+<div><a><h4>MODERN TECHNOLOGIES </h4> <p>We use innovative tools to solve<br> assigned tasks. It's time to simplify <br> work processes. </p> </a> </div>
+
+</div-->
+
+<br>
+
+<table>
+    <tr>
+        <th>ATTENTION TO DETAILS </th>
+        <th>PUNCTUALITY </th>
+        <th>PLANNING</th>
+        <th>MODERN TECHNOLOGIES</th>
+    </tr>
+    <tr>
+        <td>We go into all the details and   processes  of your business  to develop  a customized solution.</td>
+        <td>With us, you can feel safe and secure.An important principle of the company: respect your time and deadlines. </td>
+        <td>You will be able to observe and  participate in every phase of solution  development and implementation.  </td>
+        <td>We use innovative tools to solve assigned tasks. It's time to simplify work processes.</td>
+</tr>
+
+</table>
+
 <section> 
     
 <div>
-<center>
-<table>
+
+<table id="work">
     <caption> <h1><b>What we do</b></h1></caption>
 
-    <td> <img src="/images/scris la tastatura.png" alt="foto cu maini care tasteaza la computer"> </img></td> 
+    <td> <img src="/images/tst.png" alt="foto cu maini care tasteaza la computer"> </img></td> 
     <td><img src="images/mobil + tst.png" alt="dama cu mobil in mana in fata laptopului"></img></td>
-    <td><img src="images/tableta grafica.png" alt="tableta grafica"></img> </td>
+    <td><img src="images/tablet.png" alt="tableta grafica"></img> </td>
 </table>
-</center>
+
 </div>
 
 </section> 
 
 <section>
        
-<center>  
-<table>
+
+<table id="team">
     <caption> <h1><b>Our Team</b></h1></caption>
      
     <tbody>
         <tr colspan="4">
         <figure>
             <td><center><a><img src="images/christopher walker.jpg" height=260 width=270 />
-            <figcaption>Cristopher Walker<br>Product Designer</figcaption></a></center></td>
             <td><center> <a><img src="images/kylie evans.jpg" height=260 width=270/>
             <figcaption>Kylie Evans<br>Frontend Developer</figcaption></a></center></td> 
             <td><center><img src="images/ryan harris.jpg" height=260 width=270 />
@@ -79,35 +95,56 @@
         </figure>
     </tbody>
 </table>      
-</center>        
+       
 </section>
 
 
 <div class="footer">
-    &nbsp &nbsp &nbsp<div><h3> <a style="color:hsl(207, 90%, 54%)"><b>Web</b></a><b>Studio</b> </h3>  </div>
+    &nbsp &nbsp &nbsp<div><h3> <a style="color:hsl(207, 90%, 54%)"><b>Web</b></a><b style="color:white" >Studio</b> </h3>  </div>
   <ul>
-    <li><div> 695 Park Ave, NY 10065, USA </div> </li>
+    <li><div style="color:white" > 695 Park Ave, NY 10065, USA </div> </li>
     <li><div><a href="mailto:info@devstudio.com"> info@devstudio.com </a>  </div> </li> 
     <li><div><a href="tel:+1 212-772-4150" style="color:hsl(0, 0%, 46%)">+1 212-772-4150</a></div> </li>
 </ul>
 </div>
 
-<section>
-    <img src="/images/img 1.png" alt="Aceasta este o imagine"/>
-    <img src="/images/img 2.png" alt="Aceasta este o imagine" />
-    <h1>The Best Barbershop in Your City</h1>
-    <h4>If you want to add more confidence to your image, <br> you are definitely in the right place.</h4>  
-    <p>We are a team that never rests on its laurels and yearns for change.<br> And once you fall into the hands of our master, you will never be the same again.<br> We are a team that is always on the same wavelength with clients.<br> Therefore, we are always ready to improve everyone who comes to us!</p>
-    <button> BOOK A SERVICE </button>
-    </section>
 
-
-  
 </body>
 
 
 </html>
 
+
+<style>
+    .navbar {
+        
+        width:auto;
+        height: 60px;;
+        display: inline-flexbox;
+        left: 50%;
+        transform: translateX(-50%)
+        position: relative;
+    }
+</style>
+
+<style>
+    .work { 
+        width:auto;
+        height: 100px;;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+    }
+</style>
+<style>
+    .team {
+        width:auto;
+        height: 100px;;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+    }
+</style>
 
 <style>
     .head {
@@ -130,3 +167,5 @@
         align-items: left;
     }
 </style>
+
+
