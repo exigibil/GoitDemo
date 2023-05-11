@@ -5,17 +5,19 @@
     <meta charset="utf-8" />
     <title>WebStudio</title>
   
-<nav class="navbar">
-<h4> 
-    <font size="+2"> <a style="color:hsl(207, 90%, 54%)"><b>Web</b></a><b>Studio</b></font>  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp   
-    <a href="Studio" style="color:hsl(207, 90%, 54%)"> Studio </a>   &nbsp &nbsp &nbsp &nbsp &nbsp
-    <a href="Portofolio.html"> Portofolio</a> &nbsp &nbsp &nbsp  &nbsp  &nbsp
-    <a href="Contacts.html"> Contacts</a> &nbsp &nbsp  &nbsp   &nbsp &nbsp  &nbsp  &nbsp   &nbsp &nbsp  &nbsp  &nbsp &nbsp  &nbsp  &nbsp &nbsp  &nbsp &nbsp  &nbsp  &nbsp &nbsp  &nbsp
-    <a href="mailto:info@devstudio.com"> info@devstudio.com </a> &nbsp  &nbsp &nbsp  
-    <a href="tel:+1 212-772-4150" style="color:hsl(0, 0%, 46%)">+1 212-772-4150</a>
-
-</h4>
+<nav>
+    <div class="navbar">
+        <a href="#">
+        <font size="+2"> <a href="#home" style="color:hsl(207, 90%, 54%)"><b>Web</b></a><a href="#home" style="color:black"><b>Studio</b></a></font> </a>  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp    
+    <b> <a href="#home" style="color:hsl(207, 90%, 54%)">Studio</a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        <a href="#Portofolio">Portofolio</a>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        <a href="#Contacts">Contacts</a>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        <a href="mailto:info@devstudio.com">info@devstudio.com</a> &nbsp &nbsp &nbsp &nbsp
+        <a href="tel:+1 212-772-4150" style="color:hsl(0, 0%, 46%)">+1 212-772-4150</a>
+    </b>
+    </div>
 </nav>
+
 
 </header>
 
@@ -24,23 +26,24 @@
 <section class="head">
 <div>
 <center><h1 style="color: #fffcf9;"> EFFECTIVE SOLUTIONS FOR <br> YOUR BUSINESS </h1>
-<button style="background-color:hsl(207, 90%, 54%)"> <p style="color: #fffcf9;"> Request our services</p></button>
+<button style="background-color:hsl(207, 90%, 54%)" class="button"> <p style="color: #fffcf9;"> Request our services</p></button>
 </center>
 </div>
 </section>
 
-<!--div class="middle">
- 
-<div><a><h4>ATTENTION TO DETAILS</h4> <p>We go into all the details and  <br> processes  of your business  to <br> develop  a customized solution.</p> </a> </div>
-<div><a><h4>PUNCTUALITY </h4> <p>With us, you can feel safe and secure.<br> An important principle of the company:<br> respect your time and deadlines. </p> </a></div>
-<div><a><h4>PLANNING </h4> <p> You will be able to observe and <br> participate in every phase of solution <br> development and implementation. </p> </a></div>
-<div><a><h4>MODERN TECHNOLOGIES </h4> <p>We use innovative tools to solve<br> assigned tasks. It's time to simplify <br> work processes. </p> </a> </div>
+<div class="middle">
 
-</div-->
+<div><a><h4>ATTENTION TO DETAILS</h4> <p>We go into all the details and <br> processes  of your business <br> to  develop  a customized solution.</p> </a> </div>
+<div><a><h4>PUNCTUALITY </h4> <p>With us, you can feel safe and secure.<br> An important principle of the company: <br>respect your time and deadlines. </p> </a></div>
+<div><a><h4>PLANNING </h4> <p> You will be able to observe and <br>   participate in every phase of solution <br> development and implementation. </p> </a></div>
+<div><a><h4>MODERN TECHNOLOGIES </h4> <p>We use innovative tools to solve <br> assigned tasks. It's time to simplify <br> work processes. </p> </a> </div>
+
+</div>
 
 <br>
 
-<table>
+<!--Varianta id=Work sub forma de tabel-->
+<!--table>
     <tr>
         <th>ATTENTION TO DETAILS </th>
         <th>PUNCTUALITY </th>
@@ -54,34 +57,52 @@
         <td>We use innovative tools to solve assigned tasks. It's time to simplify work processes.</td>
 </tr>
 
-</table>
-
-<section> 
-    
-<div>
-
-<table id="work">
+</table-->
+    <!--varianta 2: what we do-->
+<!--table id="work">
     <caption> <h1><b>What we do</b></h1></caption>
 
     <td><img src="/images/tst.png" alt="foto cu maini care tasteaza la computer"/></td> 
     <td><img src="images/mobil + tst.png" alt="dama cu mobil in mana in fata laptopului"></img></td>
     <td><img src="images/tablet.png" alt="tableta grafica"></img> </td>
-</table>
+</table-->
+
+<section>    
+    <center><div class="whatwedo"> <caption><h1><b>What we do</b></h1></caption></div></center>
+    
+ <div class="centru">
+    <div><center><img src="images/tst.png" alt="writing at keyboard" height=300 width=400> </img> </center></div>
+    <div><center><img src="images/mobil + tst.png" alt="dama cu mobil in mana in fata laptopului" height=300 width=400 /> </center></div>
+    <div><center><img src="images/tablet.png" alt="tableta grafica" height=300 width=400 /> </center></div>
+</div>
+</section> 
+
+<br>
+
+<section>
+    <center><div class="whatwedo"> <caption><h1><b>Our Team</b></h1></caption></div></center>
+
+<div class="ourteam">
+<div><center><img src="images/christopher walker.jpg" alt="men foto" height=260 width=270 />
+    <figcaption>Christopher Walker<br>Product Designer</figcaption></center></div>
+<div><center><img src="images/kylie evans.jpg" alt="woman foto" height=260 width=270/>
+    <figcaption>Kylie Evans<br>Frontend Developer</figcaption></center></div>
+<div><center><img src="images/ryan harris.jpg" alt="men foto" height=260 width=270 />
+    <figcaption>Ryan Harris <br> Marketing</figcaption></center></div>
+<div><center><img src="images/tyler moore.jpg" alt="men foto" height=260 width=270 />
+    <figcaption>Tyler Moore <br> Ui Designer </figcaption></center></div>
 
 </div>
 
-</section> 
-
-<section>
-       
-
-<table id="team">
+<!--our team varianta 2 sub forma de tabel-->
+<!--table id="team">
     <caption> <h1><b>Our Team</b></h1></caption>
      
     <tbody>
         <tr colspan="4">
         <figure>
             <td><center><a><img src="images/christopher walker.jpg" height=260 width=270 />
+            <figcaption>Christopher Walker<br>Product Designer</figcaption></a></center></td> 
             <td><center> <a><img src="images/kylie evans.jpg" height=260 width=270/>
             <figcaption>Kylie Evans<br>Frontend Developer</figcaption></a></center></td> 
             <td><center><img src="images/ryan harris.jpg" height=260 width=270 />
@@ -94,18 +115,18 @@
         <tr></tr>
         </figure>
     </tbody>
-</table>      
+</table-->      
        
 </section>
 
-
 <div class="footer">
-    &nbsp &nbsp &nbsp<div><h3> <a style="color:hsl(207, 90%, 54%)"><b>Web</b></a><b style="color:white" >Studio</b> </h3>  </div>
-  <ul>
-    <li><div style="color:white" > 695 Park Ave, NY 10065, USA </div> </li>
-    <li><div><a href="mailto:info@devstudio.com"> info@devstudio.com </a>  </div> </li> 
-    <li><div><a href="tel:+1 212-772-4150" style="color:hsl(0, 0%, 46%)">+1 212-772-4150</a></div> </li>
-</ul>
+
+    <div style="position: relative;left: 8%">
+    <div><h4><a style="color:hsl(207, 90%, 54%)"><b>Web</b></a><b style="color:white" >Studio</b></h4></div>
+    <div style="color:white" > 695 Park Ave, NY 10065, USA </div> 
+    <div><a href="mailto:info@devstudio.com"> info@devstudio.com </a></div>
+    <div> <a href="tel:+1 212-772-4150" style="color:hsl(0, 0%, 46%)">+1 212-772-4150</a></div>
+    </div>
 </div>
 
 
@@ -114,19 +135,47 @@
 
 </html>
 
+<!-- Stilizarea siteului-->
+<style>
+.navbar {
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+ }
+
+.navbar a {
+
+text-align: center;
+text-decoration: none;
+
+}
+</style>
+
+
 
 <style>
-    .navbar {
-        
-        width:auto;
-        height: 60px;;
-        display: inline-flexbox;
-        left: 50%;
-        transform: translateX(-50%)
-        position: relative;
+    .head {
+        background-image: url("/images/Bg.png");
+        width: auto;
+        height: 400px;;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 </style>
 
+<style>
+    .middle {
+        display: grid;
+        grid-template-columns: repeat(5, 10fr);
+        gap: 100px;
+        justify-content: center;
+        display: flex;
+      }
+</style>
+
+<!--stil pentur tabelul comentat varianta 2 what we do-->
 <style>
     .work { 
         width:auto;
@@ -136,36 +185,61 @@
         align-items: left;
     }
 </style>
+
+
+<!--titlurile - text what we do si our team-->
+<style>
+    .whatwedo {
+        display:grid
+        grid-template-columns: repeat(4, 2fr);
+        gap: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+</style>
+
+<style>
+    .centru {
+        display: grid;
+        grid-template-columns: repeat(4, 2fr);
+        gap: 30px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+      }
+</style>
+
+<style>
+    .ourteam {
+        display:grid
+        grid-template-columns: repeat(4, 2fr);
+        gap: 30px;
+        display: flex;
+        justify-content: center;
+
+      }
+</style>
+
+<!--Stilul tabelului cu poze, varianta 2 our team-->
 <style>
     .team {
         width:auto;
         height: 100px;;
         display: flex;
-        justify-content: left;
-        align-items: left;
-    }
-</style>
-
-<style>
-    .head {
-        background-image: url("/images/Footer bg.png/");
-        width:auto;
-        height: 400px;;
-        display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: left;
     }
 </style>
 
 <style>
     .footer {
-        background-image: url("/images/bg.png/");
+        background-image: url("/images/Footer\ bg.png");
         width:auto;
-        height: 100px;;
+        height: 140px;
         display: flex;
-        justify-content: left;
-        align-items: left;
+        text-align: left;
+        position: relative;
     }
 </style>
-
 
