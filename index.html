@@ -9,22 +9,23 @@
 
 <body>
 
+    <p><h2> <a href="#">
+        <font size="+2"> <a href="#home" style="color:hsl(207, 90%, 54%)"><b>Web</b></a><a href="#home" style="color:black"><b>Studio</b></a></font> </a> </p>
     <nav>
-        <div class="navbar">
-            <a href="#">
-            <font size="+2"> <a href="#home" style="color:hsl(207, 90%, 54%)"><b>Web</b></a><a href="#home" style="color:black"><b>Studio</b></a></font> </a>  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp    
-        <b> <a href="#home" style="color:hsl(207, 90%, 54%)">Studio</a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-            <a href="#Portofolio">Portofolio</a>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-            <a href="#Contacts">Contacts</a>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-            
-        </b>
-        </div>
+    <div class="navbar">
+        </h2> 
+         <ul>
+           <li> <a href="#home" style="color:hsl(207, 90%, 54%)">Studio</a> </li>
+            <li><a href="#Portofolio">Portofolio</a></li>
+            <li><a href="#Contacts">Contacts</a></li>
+        </ul> 
+        <ul>
+        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a href="tel:+1 212-772-4150" style="color:hsl(0, 0%, 46%)">+1 212-772-4150</a></li>
+        </ul>
     </nav>
+   </div>
     
-    <div class="contacts">
-    <a href="mailto:info@devstudio.com">info@devstudio.com</a> &nbsp &nbsp &nbsp &nbsp
-    <a href="tel:+1 212-772-4150" style="color:hsl(0, 0%, 46%)">+1 212-772-4150</a>
-    </div>
 
 <section class="head">
 <div>
@@ -71,7 +72,7 @@
 </table-->
 
 <section>    
-    <center><div class="whatwedo"> <caption><h1><b>What we do</b></h1></caption></div></center>
+  <h1 style="text-align: center;"><b>What we do</b></h1>
     
  <div class="centru">
     <div><center><img src="images/tst.png" alt="writing at keyboard" height=300 width=400> </img> </center></div>
@@ -83,9 +84,9 @@
 <br>
 
 <section>
-    <center><div class="whatwedo"> <caption><h1><b>Our Team</b></h1></caption></div></center>
+    <h1 style="text-align: center;"><b>Our Team</b></h1>
 
-<div class="ourteam">
+<div class="centru">
 <div><center><img src="images/christopher walker.jpg" alt="men foto" height=260 width=270 />
     <figcaption>Christopher Walker<br>Product Designer</figcaption></center></div>
 <div><center><img src="images/kylie evans.jpg" alt="woman foto" height=260 width=270/>
@@ -141,7 +142,6 @@
 <!-- Stilizarea siteului-->
 <style>
     .navbar {
-      
       text-decoration: none;
       font-size: 14px;
      }
@@ -213,25 +213,13 @@
 
 <style>
     .centru {
-        display: grid;
-        grid-template-columns: repeat(4, 2fr);
-        gap: 30px;
-        align-items: center;
-        display: flex;
-        justify-content: center;
+    display: flex;
+    justify-content:space-between;
+    margin: 0 150px 0 150px;
       }
 </style>
 
-<style>
-    .ourteam {
-        display:grid
-        grid-template-columns: repeat(4, 2fr);
-        gap: 30px;
-        display: flex;
-        justify-content: center;
 
-      }
-</style>
 
 <!--Stilul tabelului cu poze, varianta 2 our team-->
 <style>
